@@ -1,0 +1,157 @@
+{% extends "resumeapp/base.html" %} 
+
+{% block content %} 
+ 
+<div class="container mt-4"> 
+    <div class="text-end"> 
+        <!--<button id="printButton" class="btn btn-primary" onclick="window.print()">🖨 Print Resume</button> -->
+    </div> 
+ 
+    <div class="text-center mt-3" align="center"> 
+        <h1>GUNTUPALLI PRAMEELA NAGA SRI</h1> 
+        <p class="text-muted">Aspiring Engineer | Web Developer | Tech Enthusiast</p> 
+        <p>      guntupalliprameela6@gmail.com |     9848676665</p> 
+        <hr> 
+    </div> 
+ 
+    <div class="mb-4"> 
+        <h3>Career Objective</h3> 
+        <p>"Enthusiastic and highly motivated IT graduate with a strong foundation in programming, database management, and system analysis. Seeking an entry-level position in a dynamic organization where I can apply my technical skills, contribute to innovative projects, and grow professionally in the field of software development and IT solutions."</p> 
+    </div> 
+ 
+    <div class="mb-4"> 
+        <h3>Educational Background</h3> 
+        <ul class="list-group"> 
+            <li class="list-group-item"><strong>Sri Vishnu Engineering College for Women</strong> - B.Tech 
+in Information Technology (2023 - 2027) - 9.3 CGPA</li> 
+            <li class="list-group-item"><strong>Narayana Junior College</strong> - Intermediate (2021 - 2023) - 
+97 percent</li> 
+            <li class="list-group-item"><strong>Vidya Jyothi School</strong> - SSC 
+(2021) - 100 percent</li> 
+        </ul> 
+    </div> 
+ 
+    <div> 
+        <h3>Technical Skills</h3> 
+        <ul class="row">
+            
+            <li class="col-md-4"> HTML, CSS & Bootstrap</li> 
+            <li class="col-md-4"> C & Java & Python</li> 
+            <li class="col-md-4"> Database Management (SQL)</li> 
+            <li class="col-md-4"> Problem-Solving & Debugging</li> 
+            <li class="col-md-4"> UI/UX design</li>
+            
+        </ul> 
+    </div> 
+ 
+    <div class="mb-4"> 
+        <h3>Strengths</h3> 
+        <ul class="list-group"> 
+            <li class="list-group-item"> Quick Learner</li> 
+            <li class="list-group-item"> Adaptable</li> 
+            <li class="list-group-item"> Time Management</li> 
+        </ul> 
+    </div> 
+ 
+    <div class="mb-4"> 
+        <h3>Languages Known</h3> 
+        <p><strong>English</strong></p> 
+        <p><strong>Telugu</strong>  
+        <p><strong>Hindi</strong>   
+    </div> 
+ 
+    <div class="mb-4"> 
+        <h3>Achievements & Certifications</h3> 
+        <ul class="list-group"> 
+            <li class="list-group-item"> Smart Coder Certification - Smart Interviews (2024)</li> 
+            <li class="list-group-item"> Python Fundamentals - Infosys Springboard (2024)</li> 
+            <li class="list-group-item"> Java Foundation Certification - Infosys Springboard (2024)</li> 
+        </ul> 
+    </div>
+    <div class="text-center mt-4"> 
+        <hr> 
+        <p>     Address: [Pedanindrakolanu,West Godavari, Andhra Pradesh, India]</p> 
+    </div> 
+</div> 
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+ 
+{% endblock %}
+<!---<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Adireddi Naga Mythri</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; padding: 20px; }
+        h1 { color: #2c3e50; text-align: center; font-size: 2.5em; margin-bottom: 10px; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
+        .section { margin-bottom: 20px; padding-bottom: 10px; }
+        .contact { text-align: center; margin-bottom: 20px; }
+        .contact a { text-decoration: none; color: #2980b9; }
+    </style>
+</head>
+<body>
+    <h1>Adireddi Naga Mythri</h1>
+    <div class="contact">
+        <p>Phone: +91-9110327793</p>
+        <p>Email: <a href="mailto:adireddymythri@gmail.com">adireddymythri@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mythri-adireddy-14b75631b">mythri-adireddy-14b75631b</a></p>
+    </div>
+    
+    <div class="section">
+        <h2>Education</h2>
+        <p><strong>Shri Vishnu Engineering College for Women</strong><br>
+        Bachelor of Technology in Information Technology (2023-2027) - CGPA: 9.34</p>
+        <p><strong>Narayana Junior College</strong><br>
+        Board of Intermediate Education, Andhra Pradesh (2021-2023) - Percentage: 97.6%</p>
+        <p><strong>A P Res(Girls) School</strong><br>
+        Board of Secondary Education, Andhra Pradesh (2021) - Percentage: 99.1%</p>
+    </div>
+    
+    <div class="section">
+        <h2>Professional Experience</h2>
+        <p>Coordinator of MECOW Club</p>
+    </div>
+    
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <p><strong>Programming Languages:</strong> C, Python, JAVA</p>
+        <p><strong>Web Technologies:</strong> HTML, CSS, Django</p>
+        <p><strong>Soft Skills:</strong> Communication Skills, Time Management, Leadership, Problem Solving</p>
+    </div>
+    
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Tic-Tac-Toe:</strong> Developed a Python-based game implementing player interactions and win condition checks.</li>
+            <li><strong>UI/UX:</strong> Created a UI/UX prototype for the FestivePal festival-based application.</li>
+            <li><strong>Currency Converter:</strong> A website for converting currency between countries using Python.</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Awards and Certifications</h2>
+        <ul>
+            <li>Participated in a 24-hour PIVOT.</li>
+            <li>Certified in SMART INTERVIEWS Phase-1 (Bronze Medal).</li>
+            <li>AICTE Internship in AWS Cloud.</li>
+            <li>Certified in foundational Java, problem-solving, Python Data Structures and Algorithms.</li>
+            <li>Certified in FLIPKART GRID 6.0 - Software Development Track.</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Coding Profiles</h2>
+        <ul>
+            <li><strong>Leetcode:</strong> adireddymythri</li>
+            <li><strong>Hackerrank:</strong> adireddymythri</li>
+            <li><strong>CodeForces:</strong> adireddymythri</li>
+            <li><strong>Spoj:</strong> adireddymythri</li>
+            <li><strong>Codechef:</strong> grace_vibe_90</li>
+            <li><strong>GitHub:</strong> adireddymythri</li>
+        </ul>
+    </div>
+</body>
+</html>-->
