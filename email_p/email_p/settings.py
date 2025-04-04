@@ -129,4 +129,4 @@ EMAIL_HOST = 'smtp.zoho.in'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'prameelag@zohomail.in'
-EMAIL_HOST_PASSWORD = 'N9pKbskc2V0b+
+EMAIL_HOST_PASSWORD = 'guntupalli@9999'
